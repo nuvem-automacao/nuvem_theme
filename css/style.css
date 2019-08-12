@@ -665,6 +665,8 @@ h6 {
 #why-us .card:hover {
   background: #003b7a;
   border-color: #003b7a;
+  transform: translateY(-5px);
+  transition: all 0.2s;
 }
 
 #why-us .card i {
