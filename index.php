@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Nuvem Automação</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="<?php bloginfo('template_url'); ?>/img/favicon.png" rel="icon">
+  <link href="<?php bloginfo('template_url'); ?>/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="<?php bloginfo('template_url'); ?>/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="<?php bloginfo('template_url'); ?>/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_url'); ?>/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_url'); ?>/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_url'); ?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?php bloginfo('template_url'); ?>/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+  <!-- Main Stylesheet File -->
+  <link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet">
+
+  <!-- PHP CSS Files -->
+  <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1 class="text-light"><a href="#header">
+          <i class="fa fa-cloud" aria-hidden="true"></i>
+          <span>Nuvem Automação</span></a>
+        </h1> 
+        <!-- <a href="#intro" class="scrollto">
+          <h1 class="display-3">
+              <i class="fa fa-cloud" aria-hidden="true"></i>
+          </h1><h2>N</h2> 
+             
+          
+        </a>-->
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Time</a></li>
+          <!-- Uncomment below to use a drop down menu -->
+          <!--<li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>-->
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="<?php bloginfo('template_url'); ?>/img/intro-img.svg" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>Temos as melhores<br><span>soluções</span><br>para o seu negócio!</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Começar</a>
+          <a href="#services" class="btn-services scrollto">Outros Serviços</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Um pouquinho sobre nós</h3>
+          <p>Somos uma agência de <b>marketing digital</b>, focada em trazer <b>resultados online</b>. Criamos sites de
+            alta performance com elevada porcentagem de conversão. Oferecemos consultoria e solução
+            completa em marketing digital para <b>seu negócio decolar na internet</b></p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              Nosso core business é Marketing Digital, logo então todos os nossos produtos são criados pensando em atingir 
+              o objetivo do seu projeto. A saber que dentro do cenário de Marketing Digital existem 3 objetivos: 
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Venda de Produto</a></h4>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-paper-plane"></i></div>
+              <h4 class="title"><a href="">Geração de Leads</a></h4>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-line-chart"></i></div>
+              <h4 class="title"><a href="">Fidelização e Posicionamento de Marca</a></h4>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="<?php bloginfo('template_url'); ?>/img/about-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="<?php bloginfo('template_url'); ?>/img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Sites para PME (Pequena e Média Empresa)</h4>
+            <p>
+              Nós disponibilizamos a opção de sites com layout padrão ou seja
+              ele possui as mesmas características que um site artesanal
+              (com layout exclusivo), criado do zero, contudo o layout
+              deste não é exclusivo e com isto esta categoria de site
+              torna-se mais rápida de ser criada e também lhe proporciona uma 
+              economia financeira maior. Resumidamente, os sites de layout 
+              padrão são ideias se você tiver pressa em ter o site hospedado e/ou 
+              não queira "investir muito".
+            </p>
+            <p>
+              Os sites de layout padrão são tão voltados ao Marketing Digital
+              quanto os sites artesanais de layout exclusivo. A única
+              diferença entre eles é que o layout artesanal exclusivo somente
+              você terá este layout, já o layout artesanal padrão o seu
+              negócio e diversos outros podem ter o mesmo layout.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="<?php bloginfo('template_url'); ?>/img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>
+              Nossas Lojas Virtuais
+            </h4>
+            <p>
+                Criamos loja virtual de acordo com a necessidade de seu negócio
+                e todas são voltadas as boas práticas do Marketing Digital,
+                a fim de gerar o máximo possível de vendas.
+            </p>
+            <p>
+                Antes de você decidir criar uma loja virtual nós da Nuvem 
+                Automação lhe aconselhamos a pensar em todo processo e-commerce (venda, 
+                logística, financeiro, produção, Marketing, dentre outros 
+                itens...). 
+            </p>
+            <p>
+                Somos muito sinceros em dizer que já presenciamos
+                muitos começarem a vender online e por não estarem 
+                preparados tiveram que parar. Este fato nos fez ir além da 
+                criação de loja virtual e também prestar consultoria em 
+                todas as ramificações que compõem o processo E-commerce, 
+                logo então decidindo criar sua loja conosco, não somente 
+                terá a plataforma, mas sim nossa consultoria.
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Serviços</h3>
+          <p>Criamos para você um site completo e profissional para alavancar o seu negócio através da internet!</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-facebook" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">REDES SOCIAIS</a></h4>
+              <p class="description">O conteúdo das suas redes sociais compartilhado no seu site</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-mobile" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">SITE RESPONSIVO</a></h4>
+              <p class="description">Adaptável para computador, tablet e celulares de todos os modelos</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-comments" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">CHAT ONLINE</a></h4>
+              <p class="description">Atenda e converse com seus clientes através de um chat online</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-globe" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">DOMÍNIO PERSONALIZADO</a></h4>
+              <p class="description">Tenha um domínio que identifique sua marca. ex: www.suamarca.com.br</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-search" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">FÁCIL DE ENCONTRAR</a></h4>
+              <p class="description">Especialistas capacitados para seu crescimento no ranking nos motores de busca</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="fa fa-envelope-o" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">E-MAIL PROFISSIONAL</a></h4>
+              <p class="description">Comunique-se com seus clientes através de um email profissional</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Plans Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Escolha o seu plano de acordo com a sua Necessidade</h3>
+          <p>Nossos sites são criados 100% por nós. Não 
+            confunda nossos planos com criadores de site 
+            online, onde você mesmo deve criar e configurar 
+            seu site.</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-usd"></i>
+              <div class="card-body">
+                <h5 class="card-title">Bom, Bonito e Barato</h5>
+                <p class="card-text text-center"><h4>Investimento: R$499,00</h4></p>
+                <p class="card-text text-center"><b>Hospedagem e Suporte(Mensal): R$30,00</b></p>                
+                <p class="card-text text-left">
+                      Design: 01 Home + 04 Telas 
+                  <br>Front-End: Baixa Complexidade
+                  <br>Formulário de Contato
+                  <br>Responsivo 
+                  <br>E-mail Profissional
+                  <br><b>Ajustes: Máximo de 10</b>
+                  <br><b>Prazo: 5 dias úteis</b>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-balance-scale"></i>
+              <div class="card-body">
+                <h5 class="card-title">Custo x Beneficio</h5>
+                <p class="card-text text-center"><h4>Investimento: R$799,00</h4></p>
+                <p class="card-text text-center"><b>Hospedagem e Suporte(Mensal): R$30,00</b></p>                
+                <p class="card-text text-left">
+                      Design: 01 Home + 09 Telas 
+                  <br>Front-End: Média Complexidade
+                  <br>Otimização SEO 
+                  <br>Blog / Notícias 
+                  <br>Certiﬁcado de Segurança (SSL) 
+                  <br>Formulário de Contato
+                  <br>Responsivo 
+                  <br>E-mail Profissional
+                  <br><b>Ajustes: Máximo de 15</b>
+                  <br><b>Prazo: 10 dias úteis</b>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">Premium</h5>
+                <p class="card-text text-center"><h4>Investimento: R$1999,00</h4></p>
+                <p class="card-text text-center"><b>Hospedagem e Suporte(Mensal): R$30,00</b></p>                
+                <p class="card-text text-left">
+                      Design: 01 Home + 14 Telas 
+                  <br>Front-End: Alta Complexidade
+                  <br>Otimização SEO 
+                  <br>Blog / Notícias 
+                  <br>Certiﬁcado de Segurança (SSL) 
+                  <br>Formulário de Contato
+                  <br>Responsivo 
+                  <br>E-mail Profissional
+                  <br><b>Layout Exclusivo</b>                  
+                  <br><b>Ajustes: Máximo de 20</b>
+                  <br><b>Prazo: 20 dias úteis</b>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clientes</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projetos</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Horas de Suporte</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Profissionais</p>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Nosso Portfolio</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Sites Institucionais</li>
+              <li data-filter=".filter-ecom">E-commerce</li>
+              <li data-filter=".filter-land">Landing Page</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="<?php bloginfo('template_url'); ?>/img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Site Institucional</a></h4>
+                <p>Conheça o nosso layout padrão para sites institucionais</p>
+                <div>
+                  <a href="<?php bloginfo('template_url'); ?>/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ecom" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="<?php bloginfo('template_url'); ?>/img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">E-commerce</a></h4>
+                <p>Conheça o nosso layout padrão para E-commerces</p>
+                <div>
+                  <a href="<?php bloginfo('template_url'); ?>/img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-land" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="<?php bloginfo('template_url'); ?>/img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Landing Page</a></h4>
+                <p>Conheça o nosso layout padrão para sites de landing page</p>
+                <div>
+                  <a href="<?php bloginfo('template_url'); ?>/img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="testimonials" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>O que nossos clientes dizem?</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+    
+              <div class="testimonial-item">
+                <img src="<?php bloginfo('template_url'); ?>/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="<?php bloginfo('template_url'); ?>/img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="<?php bloginfo('template_url'); ?>/img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="<?php bloginfo('template_url'); ?>/img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="<?php bloginfo('template_url'); ?>/img/testimonial-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="mb-5">Nosso time!</h3>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="<?php bloginfo('template_url'); ?>/img/lucas.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Lucas Silva</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="<?php bloginfo('template_url'); ?>/img/arthur.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Arthur Pedroti</h4>
+                  <span>CFO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+    <section id="clients" class="section-bg">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="mb-5">Nossos clientes</h3>
+        </div>
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="<?php bloginfo('template_url'); ?>/img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="<?php bloginfo('template_url'); ?>/img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="<?php bloginfo('template_url'); ?>/img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="<?php bloginfo('template_url'); ?>/img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Entre em conosco e peça já o seu Orçamento!</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-6 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>contato@nuvemautomacao.com.br</p>
+              </div>
+              <div class="col-md-6 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>(27) 996145103</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <div id="sendmessage">Sua mensagem foi enviada, obrigado!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Coloque pelo menos 4 caracteres" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Coloque um e-mail valido" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Coloque pelo menos 8 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Assunto" placeholder="Peça já o seu orçamento conosco!"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Enviar">Enviar</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Nuvem Automação</h3>
+            <p>Somos uma agência de <b>marketing digital</b>, focada em trazer <b>resultados online</b>. Criamos sites de
+              alta performance com elevada porcentagem de conversão. Oferecemos consultoria e solução
+              completa em marketing digital para <b>seu negócio decolar na internet</b></p>          
+          </div>
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contato</h4>
+            <p>
+              <strong>Phone:</strong> +55 (27) 99614-5103<br>
+              <strong>Email:</strong> contato@nuvemautomacao.com.br<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Notícias</h4>
+            <p>Acompanhe nossos últimos trabalhos, serviços, dicas e promoções!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Nuvem Automação</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and updated by <strong>Nuvem Automação</strong>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="<?php bloginfo('template_url'); ?>/lib/jquery/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/easing/easing.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/mobile-nav/mobile-nav.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/wow/wow.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/waypoints/waypoints.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/counterup/counterup.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="<?php bloginfo('template_url'); ?>/lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="<?php bloginfo('template_url'); ?>/contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="<?php bloginfo('template_url'); ?>/js/main.js"></script>
+
+</body>
+</html>
